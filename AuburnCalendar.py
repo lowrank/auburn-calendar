@@ -61,7 +61,7 @@ for i in range(len(dates)):
               0, 0, 0, tzinfo=pytz.timezone('US/Central')))
     cal.add_component(event)
 
-directory = Path.cwd() / 'AuburnCalendar'
+directory = Path.cwd() 
 if not directory.exists():
     os.makedirs(directory)
 
