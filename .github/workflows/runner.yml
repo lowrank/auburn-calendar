@@ -1,6 +1,10 @@
 name: Python package
 
-on: [push]
+on:
+  push:
+  pull_request:
+  schedule:
+    - cron: '15 6 1 * *' # on day 1 of each month
 
 jobs:
   build:
