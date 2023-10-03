@@ -1,4 +1,4 @@
-name: Python package
+name: ics file
 
 on:
   push:
