@@ -3,6 +3,7 @@ name: ics file
 on:
   push:
   pull_request:
+  workflow_dispatch:
   schedule:
     - cron: '15 6 1 * *' # on day 1 of each month
 
